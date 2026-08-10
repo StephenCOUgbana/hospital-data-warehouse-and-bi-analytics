@@ -163,9 +163,9 @@ Execute Q1 and Q2 and verify that the warehouse produces the required results.
 
 ---
 
-# Solution Overview
+## Solution Overview
 
-The project follows the following data warehousing workflow:
+The solution delivered follows the following data warehousing workflow:
 
 ```text
 Operational Healthcare Data
@@ -174,32 +174,35 @@ Operational Healthcare Data
 Functional Dependency Analysis
             │
             ▼
-Attribute Tree
+Attribute Tree Construction
             │
             ▼
 Pruning & Grafting
             │
             ▼
-Dimensional Fact Model
+Dimensional Fact Model Design
             │
             ├── Dimensions
             ├── Fact
             └── Measures
             │
             ▼
-Star Schema
+Star Schema Implementation
             │
             ▼
-SQLite Data Warehouse
+Data Warehouse Implementation
             │
             ▼
-Sample Data
+Sample Data Insertion
             │
             ▼
-Materialised View
+Materialised View Implementation
             │
             ▼
-OLAP Queries
+OLAP Queries Execution
             │
             ├── Q1
             └── Q2
+```
+### Skills: 
+Data Warehousing · Business Intelligence · Dimensional Modelling · DFM Modelling · Star Schema Design · Functional Dependency Analysis · Attribute Trees · Pruning & Grafting · OLAP Analysis · SQL · SQLite · Python · Materialised Views · Query Optimisation · Data Aggregation · Database Design · Data Modelling · Analytical Reporting · Business Performance Analysis
